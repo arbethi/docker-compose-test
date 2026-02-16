@@ -3,7 +3,7 @@ version: "3"
 services:
   next-app:
     build:
-      context: ./
+      context: ./next-app
       dockerfile: prod.Dockerfile
       args:
         ENV_VARIABLE: ${ENV_VARIABLE}
